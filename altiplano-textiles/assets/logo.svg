@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
+  <rect width="200" height="60" fill="white"></rect>
+  <path d="M10 50 L40 20 L70 50 Z" fill="#0d6efd"></path>
+  <path d="M50 50 L80 15 L110 50 Z" fill="#6610f2"></path>
+  <text x="120" y="40" font-family="Poppins, sans-serif" font-size="18" fill="#111" font-weight="bold">
+    Altiplano
+  </text>
+  <text x="120" y="55" font-family="Poppins, sans-serif" font-size="12" fill="#444">
+    Textiles S.A.C.
+  </text>
+</svg>

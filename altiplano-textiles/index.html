@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Altiplano Textiles S.A.C.</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-transparent">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
+        <img src="assets/logo.svg" alt="Logo" height="40" class="me-2">
+        Altiplano Textiles
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">Quiénes Somos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#constitution">Constitución</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero d-flex align-items-center justify-content-center text-center">
+    <div data-aos="fade-up">
+      <h1 class="display-3 fw-bold text-white">Altiplano Textiles S.A.C.</h1>
+      <p class="lead text-white-50">Innovación textil con identidad andina</p>
+      <a href="#about" class="btn btn-primary btn-lg mt-3">Conócenos</a>
+    </div>
+  </header>
+
+  <section id="about" class="container py-5">
+    <h2 class="section-title" data-aos="fade-up">Quiénes Somos</h2>
+    <p data-aos="fade-up" data-aos-delay="100"><strong>Misión:</strong> Crear textiles innovadores que revaloren la cultura altiplánica.</p>
+    <p data-aos="fade-up" data-aos-delay="200"><strong>Visión:</strong> Ser líderes en exportación textil desde el sur del Perú.</p>
+    <p data-aos="fade-up" data-aos-delay="300"><strong>Valores:</strong> Innovación, compromiso, identidad cultural, responsabilidad social.</p>
+  </section>
+
+  <section id="services" class="py-5">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Nuestros Servicios</h2>
+      <div class="row text-center">
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card shadow-sm p-4 service-card">
+            <i class="fas fa-shirt"></i>
+            <h5>Confección de Prendas</h5>
+            <p>Producción de prendas de vestir con calidad y diseño exclusivo.</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card shadow-sm p-4 service-card">
+            <i class="fas fa-scroll"></i>
+            <h5>Venta de Textiles</h5>
+            <p>Textiles artesanales y modernos inspirados en la tradición andina.</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="card shadow-sm p-4 service-card">
+            <i class="fas fa-globe"></i>
+            <h5>Exportación</h5>
+            <p>Productos terminados para el mercado internacional.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="constitution" class="container py-5">
+    <h2 class="section-title" data-aos="fade-up">Constitución de la Empresa</h2>
+    <ul class="list-group list-group-flush" data-aos="fade-up" data-aos-delay="200">
+      <li class="list-group-item">Reserva de nombre en SUNARP</li>
+      <li class="list-group-item">Elaboración de la minuta de constitución</li>
+      <li class="list-group-item">Elevación a escritura pública en notaría</li>
+      <li class="list-group-item">Inscripción en el Registro de Personas Jurídicas (SUNARP)</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Contáctanos</h2>
+      <form class="row g-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Nombre" required>
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control" placeholder="Email" required>
+        </div>
+        <div class="col-12">
+          <textarea class="form-control" rows="4" placeholder="Mensaje" required></textarea>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="text-center text-white py-3">
+    <p>&copy; 2025 Altiplano Textiles S.A.C. | Ingeniería de Sistemas</p>
+    <button id="btnTop" class="btn">⬆</button>
+  </footer>
+
+  <div class="modal fade" id="thankYouModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center p-4">
+        <h5 class="mb-3"> ¡Gracias por tu mensaje!</h5>
+        <p>Nos pondremos en contacto contigo lo antes posible.</p>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
