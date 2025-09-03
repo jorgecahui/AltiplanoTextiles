@@ -172,3 +172,19 @@ footer p{ margin:0; font-size: .95rem; }
   box-shadow: 0 16px 40px rgba(0,0,0,0.3);
 }
 
+#constitution .list-group-item {
+  background: rgba(255, 255, 255, 0.85);
+  border: none;
+  margin-bottom: 10px;
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+#constitution .list-group-item:hover {
+  background: linear-gradient(135deg, #ff9a3c, #ff4e88);
+  color: white;
+  transform: translateX(6px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
